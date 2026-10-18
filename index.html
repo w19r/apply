@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- معلومات الـ SEO و Open Graph (OG) -->
-    <title>تقديم القرعة الأمريكية 2027 | خدمة عبد الله </title>
+    <title>تقديم القرعة الأمريكية 2027 | خدمة عبد الله</title>
     <meta name="description" content="خدمة احترافية للتسجيل في القرعة الأمريكية (DV Lottery) بأسعار رمزية. نضمن مطابقة صورتك وبياناتك 100% لشروط وزارة الخارجية الأمريكية.">
     
-    <meta property="og:title" content="تقديم القرعة الأمريكية 2026 | خدمة احترافية">
-    <meta property="og:description" content="لا تخاطر بفرصتك بسبب أخطاء الصورة أو البيانات. قدم الآن مع عبد الله  بأسعار رمزية ومتابعة كاملة.">
-    <meta property="og:image" content="https://apply.abdallahalaydi.com/preview-image.jpg"> <!-- يمكنك استبدال هذا الرابط برابط صورة الغلاف الخاصة بك -->
+    <meta property="og:title" content="تقديم القرعة الأمريكية 2027 | خدمة احترافية">
+    <meta property="og:description" content="لا تخاطر بفرصتك بسبب أخطاء الصورة أو البيانات. قدم الآن مع عبد الله بأسعار رمزية ومتابعة كاملة.">
+    <meta property="og:image" content="https://apply.abdallahalaydi.com/preview-image.jpg"> 
     <meta property="og:url" content="https://apply.abdallahalaydi.com">
     <meta property="og:type" content="website">
-    
     <meta name="twitter:card" content="summary_large_image">
     
     <!-- خطوط جوجل (Cairo) -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     
+    <!-- أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -30,33 +32,59 @@
                     },
                     colors: {
                         brand: {
-                            blue: '#0f172a',
-                            lightBlue: '#1e293b',
-                            gold: '#eab308',
-                            goldHover: '#ca8a04'
+                            blue: '#0a192f',
+                            lightBlue: '#112240',
+                            gold: '#facc15',
+                            goldHover: '#eab308',
+                            green: '#25D366'
                         }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slight': 'bounce 2s infinite',
                     }
                 }
             }
         }
     </script>
     <style>
-        body { font-family: 'Cairo', sans-serif; }
-        .smooth-scroll { scroll-behavior: smooth; }
+        body { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; }
+        .gradient-bg { background: linear-gradient(135deg, #0a192f 0%, #112240 100%); }
+        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        .faq-icon { transition: transform 0.3s ease; }
+        details[open] .faq-icon { transform: rotate(180deg); }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 smooth-scroll">
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- زر الواتساب العائم -->
+    <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" class="fixed bottom-6 right-6 z-50 bg-brand-green text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce-slight">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- شريط علوي تنبيهي -->
+    <div class="bg-red-600 text-white text-center py-2 text-sm font-bold tracking-wide">
+        <i class="fas fa-bell ml-2 animate-pulse"></i> تنبيه: التسجيل متاح لفترة محدودة، سارع بحجز مقعدك قبل الضغط على الموقع الرسمي!
+    </div>
 
     <!-- شريط التنقل -->
-    <nav class="bg-brand-blue text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-white text-brand-blue shadow-md sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex-shrink-0 font-bold text-xl tracking-wide flex items-center gap-2">
-                    <span class="text-brand-gold">DV</span> Lottery
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 font-black text-2xl tracking-wide flex items-center gap-2">
+                    <i class="fas fa-star text-brand-gold"></i>
+                    DV<span class="text-brand-gold">2027</span>
+                </div>
+                <div class="hidden md:flex space-x-8 space-x-reverse font-semibold">
+                    <a href="#features" class="hover:text-brand-gold transition">المميزات</a>
+                    <a href="#pricing" class="hover:text-brand-gold transition">الأسعار</a>
+                    <a href="#faq" class="hover:text-brand-gold transition">الأسئلة الشائعة</a>
                 </div>
                 <div>
-                    <a href="#contact" class="bg-brand-gold hover:bg-brand-goldHover text-brand-blue font-bold py-2 px-4 rounded-full transition duration-300">
-                        تواصل معي
+                    <a href="#contact" class="bg-brand-blue hover:bg-brand-lightBlue text-white font-bold py-2 px-6 rounded-lg transition duration-300 shadow-md">
+                        تواصل الآن <i class="fas fa-arrow-left mr-2"></i>
                     </a>
                 </div>
             </div>
@@ -64,140 +92,210 @@
     </nav>
 
     <!-- الواجهة (Hero Section) -->
-    <section class="bg-brand-blue text-white py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-                لا تضيع فرصتك في الحلم الأمريكي <br> بسبب <span class="text-brand-gold">أخطاء بسيطة!</span>
+    <section class="gradient-bg text-white py-24 relative overflow-hidden">
+        <!-- أشكال زخرفية -->
+        <div class="absolute top-[-10%] right-[-5%] w-64 h-64 bg-brand-gold opacity-10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-[-10%] left-[-5%] w-80 h-80 bg-blue-500 opacity-10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="inline-block bg-brand-gold text-brand-blue font-bold px-4 py-1 rounded-full text-sm mb-6 shadow-lg">
+                <i class="fas fa-check-circle ml-1"></i> التسجيل للعام 2027 مفتوح الآن
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight">
+                طريقك إلى أمريكا يبدأ <br> <span class="text-brand-gold">بصورة وبيانات صحيحة 100%</span>
             </h1>
-            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                خدمة تسجيل متكاملة ومضمونة في القرعة الأمريكية (اللوتري). نقوم بضبط مقاسات صورتك وتعبئة بياناتك بدقة متناهية بأسعار رمزية جداً.
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+                لا تخاطر بالاستبعاد الآلي بسبب خطأ بسيط! نحن نستلم بياناتك وصورتك، نقوم بضبط المقاسات الهندسية (600x600 بكسل) وتعبئة النموذج الرسمي نيابة عنك بأسعار رمزية وموثوقية تامة.
             </p>
-            <div class="flex justify-center gap-4 flex-wrap">
-                <a href="#contact" class="bg-brand-gold hover:bg-brand-goldHover text-brand-blue font-bold text-lg py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                    ابدأ التسجيل الآن
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 flex-wrap mb-12">
+                <a href="#contact" class="bg-brand-gold hover:bg-brand-goldHover text-brand-blue font-bold text-lg py-4 px-10 rounded-lg shadow-[0_0_15px_rgba(250,204,21,0.4)] transition duration-300 transform hover:-translate-y-1">
+                    <i class="fab fa-telegram-plane ml-2"></i> ابدأ التسجيل عبر تليجرام
                 </a>
-                <a href="#why-us" class="bg-brand-lightBlue hover:bg-gray-700 text-white font-bold text-lg py-3 px-8 rounded-full shadow-lg border border-gray-600 transition duration-300">
-                    لماذا تختارنا؟
+                <a href="#how-it-works" class="glass-card hover:bg-white/10 text-white font-bold text-lg py-4 px-10 rounded-lg transition duration-300">
+                    كيف تعمل الخدمة؟
                 </a>
+            </div>
+
+            <!-- إحصائيات سريعة الثقة -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto border-t border-white/10 pt-8 mt-8">
+                <div><h3 class="text-3xl font-bold text-brand-gold">100%</h3><p class="text-sm text-gray-400">مطابقة للشروط</p></div>
+                <div><h3 class="text-3xl font-bold text-brand-gold">+500</h3><p class="text-sm text-gray-400">طلب ناجح سابقاً</p></div>
+                <div><h3 class="text-3xl font-bold text-brand-gold">0</h3><p class="text-sm text-gray-400">أخطاء إملائية</p></div>
+                <div><h3 class="text-3xl font-bold text-brand-gold"><i class="fas fa-lock"></i></h3><p class="text-sm text-gray-400">سرية تامة للبيانات</p></div>
             </div>
         </div>
     </section>
 
-    <!-- لماذا نحن (المميزات من الدليل) -->
-    <section id="why-us" class="py-16 bg-white">
+    <!-- لماذا تختار خدمتنا (Features) -->
+    <section id="features" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-brand-blue mb-4">لماذا يجب أن تقدم عن طريقنا؟</h2>
-                <p class="text-gray-600">هل تعلم أن ملايين الطلبات تُرفض إلكترونياً دون علم أصحابها بسبب عدم مطابقة الصورة؟</p>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-blue mb-4">لماذا نحن خيارك الأفضل؟</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">ملايين الأشخاص يتم استبعادهم سنوياً دون الدخول في السحب بسبب عدم مطابقة الصورة. نحن هنا لمنع ذلك.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- ميزة 1 -->
-                <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <div class="text-brand-gold text-4xl mb-4">📷</div>
-                    <h3 class="text-xl font-bold mb-2">ضبط هندسي دقيق للصورة</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        نضمن لك صورة مطابقة للشروط: بالضبط 600×600 بكسل، وحجم أقل من 240KB. نقوم بضبط قياسات الرأس ليكون بين 50% إلى 69% من الصورة، ومستوى العينين بدقة، مع فحص الخلفية والظلال.
-                    </p>
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-brand-gold transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                    <div class="w-16 h-16 bg-blue-100 text-brand-blue rounded-full flex items-center justify-center text-2xl mb-6 shadow-sm"><i class="fas fa-crop-alt"></i></div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">فحص وتعديل هندسي للصورة</h3>
+                    <p class="text-gray-600 leading-relaxed">نضمن لك صورة مطابقة: أبعاد 600×600، حجم أقل من 240KB، الرأس بنسبة 50-69% من الصورة، بخلفية بيضاء سادة بدون أي ظلال.</p>
                 </div>
-                <!-- ميزة 2 -->
-                <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <div class="text-brand-gold text-4xl mb-4">✍️</div>
-                    <h3 class="text-xl font-bold mb-2">تعبئة البيانات بدون أخطاء</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        خطأ بحرف واحد قد يمنعك من السفر حتى لو فزت. نحن نراجع جواز سفرك أو هويتك ونقوم بتعبئة النموذج الرسمي المعتمد لضمان التطابق التام وتجنب الأخطاء الإملائية.
-                    </p>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-brand-gold transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                    <div class="w-16 h-16 bg-blue-100 text-brand-blue rounded-full flex items-center justify-center text-2xl mb-6 shadow-sm"><i class="fas fa-keyboard"></i></div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">إدخال دقيق للبيانات</h3>
+                    <p class="text-gray-600 leading-relaxed">أي خطأ في ترتيب الاسم أو تاريخ الميلاد قد يلغي فوزك لاحقاً. نكتب بياناتك باللغة الإنجليزية كما هي في جوازك لتجنب أي مشاكل بالمقابلة.</p>
                 </div>
-                <!-- ميزة 3 -->
-                <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <div class="text-brand-gold text-4xl mb-4">🔒</div>
-                    <h3 class="text-xl font-bold mb-2">شفافية وسعر رمزي</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        أسعارنا رمزية وتنافسية جداً. نقوم بإرسال ملف PDF يحتوي على رقم التأكيد (Confirmation Number) فور الانتهاء، لتتمكن من فحص النتيجة بنفسك في شهر مايو القادم.
-                    </p>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-2 h-full bg-brand-gold transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                    <div class="w-16 h-16 bg-blue-100 text-brand-blue rounded-full flex items-center justify-center text-2xl mb-6 shadow-sm"><i class="fas fa-file-pdf"></i></div>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">تسليم ملف التأكيد الرسمي</h3>
+                    <p class="text-gray-600 leading-relaxed">بعد الانتهاء، نرسل لك ملف PDF يحتوي على رقم التأكيد (Confirmation Number) واسمك، لتتمكن من فحص نتيجتك بنفسك في شهر مايو.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- خطوات العمل -->
-    <section class="py-16 bg-gray-50">
+    <!-- كيف نعمل (Timeline) -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-brand-blue mb-16">خطوات التقديم معنا بسيطة جداً</h2>
+            
+            <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
+                <!-- خطوة 1 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-brand-gold text-brand-blue font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">1</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                        <h4 class="text-xl font-bold text-brand-blue mb-2">تواصل وأرسل البيانات</h4>
+                        <p class="text-gray-600 text-sm">راسلنا لتستلم القائمة المحددة للبيانات المطلوبة (الاسم، تاريخ الميلاد، مكان الولادة، الحالة الاجتماعية).</p>
+                    </div>
+                </div>
+                <!-- خطوة 2 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-brand-gold text-brand-blue font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">2</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                        <h4 class="text-xl font-bold text-brand-blue mb-2">التقاط الصورة والتعديل</h4>
+                        <p class="text-gray-600 text-sm">التقط صورة بكاميرا هاتفك بخلفية فاتحة. فريقنا سيقوم بقصها، تبييض الخلفية، وضبط مقاسات الرأس 600x600.</p>
+                    </div>
+                </div>
+                <!-- خطوة 3 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-brand-gold text-brand-blue font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">3</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                        <h4 class="text-xl font-bold text-brand-blue mb-2">التسجيل واستلام الوصل</h4>
+                        <p class="text-gray-600 text-sm">نقوم برفع طلبك على موقع وزارة الخارجية الأمريكية الرسمي فوراً، ونسلمك رقم التأكيد (Confirmation Number).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأسعار (Pricing) -->
+    <section id="pricing" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-center text-brand-blue mb-12">كيف تتم العملية؟</h2>
-            <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-center">
-                <div class="flex-1">
-                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold text-brand-gold mx-auto shadow-md mb-4 border-2 border-brand-gold">1</div>
-                    <h4 class="font-bold mb-2">تواصل معنا</h4>
-                    <p class="text-sm text-gray-600">راسلنا عبر تلجرام أو واتساب للحصول على القائمة البسيطة للبيانات المطلوبة.</p>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-blue mb-4">أسعار رمزية ومناسبة للجميع</h2>
+                <p class="text-gray-600">التسجيل في الموقع الرسمي مجاني، هذه الرسوم هي مقابل الخدمة الفنية، تعديل الصور، ووقت إدخال البيانات لضمان عدم رفضك.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- طلب فردي -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 p-8 text-center hover:shadow-2xl transition duration-300 relative">
+                    <h3 class="text-2xl font-bold text-brand-blue mb-2">الطلب الفردي</h3>
+                    <p class="text-gray-500 mb-6">للأشخاص غير المتزوجين</p>
+                    <div class="text-4xl font-black text-brand-blue mb-6">سعر رمزي<span class="text-lg text-gray-500 font-normal"> / للطلب</span></div>
+                    <ul class="text-right space-y-3 mb-8 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 ml-2"></i> تعديل صورة شخصية واحدة.</li>
+                        <li><i class="fas fa-check text-green-500 ml-2"></i> تعبئة بيانات دقيقة 100%.</li>
+                        <li><i class="fas fa-check text-green-500 ml-2"></i> تسليم ملف التأكيد PDF.</li>
+                    </ul>
+                    <a href="#contact" class="block w-full bg-brand-blue text-white font-bold py-3 rounded-lg hover:bg-brand-lightBlue transition">اطلب الآن</a>
                 </div>
-                <div class="hidden md:block w-12 border-t-2 border-dashed border-gray-300"></div>
-                <div class="flex-1">
-                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold text-brand-gold mx-auto shadow-md mb-4 border-2 border-brand-gold">2</div>
-                    <h4 class="font-bold mb-2">أرسل بياناتك وصورتك</h4>
-                    <p class="text-sm text-gray-600">التقط صورة بهاتفك بخلفية فاتحة، وسنقوم نحن بضبطها تقنياً ودفع الرسوم الرمزية.</p>
-                </div>
-                <div class="hidden md:block w-12 border-t-2 border-dashed border-gray-300"></div>
-                <div class="flex-1">
-                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold text-brand-gold mx-auto shadow-md mb-4 border-2 border-brand-gold">3</div>
-                    <h4 class="font-bold mb-2">استلم رقم التأكيد</h4>
-                    <p class="text-sm text-gray-600">نسلمك ملف التقديم الرسمي برقم التأكيد (Confirmation Number).</p>
+
+                <!-- طلب عائلي -->
+                <div class="bg-brand-blue rounded-2xl border border-brand-gold p-8 text-center shadow-xl transform md:-translate-y-4 relative overflow-hidden">
+                    <div class="absolute top-4 left-[-35px] bg-brand-gold text-brand-blue text-xs font-bold px-10 py-1 rotate-[-45deg]">الأكثر طلباً</div>
+                    <h3 class="text-2xl font-bold text-white mb-2">الطلب العائلي (مزدوج)</h3>
+                    <p class="text-gray-400 mb-6">للمتزوجين (مضاعفة فرصة الفوز)</p>
+                    <div class="text-4xl font-black text-brand-gold mb-6">سعر رمزي<span class="text-lg text-gray-400 font-normal"> / للطلبين</span></div>
+                    <ul class="text-right space-y-3 mb-8 text-gray-300">
+                        <li><i class="fas fa-check text-brand-gold ml-2"></i> تقديم طلب باسم الزوج وطلب للزوجة.</li>
+                        <li><i class="fas fa-check text-brand-gold ml-2"></i> تعديل صور لجميع أفراد الأسرة.</li>
+                        <li><i class="fas fa-check text-brand-gold ml-2"></i> إضافة الأطفال بدقة.</li>
+                    </ul>
+                    <a href="#contact" class="block w-full bg-brand-gold text-brand-blue font-bold py-3 rounded-lg hover:bg-brand-goldHover transition">اطلب الآن</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- الأسئلة الشائعة -->
-    <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-center text-brand-blue mb-10">الأسئلة الشائعة</h2>
+    <section id="faq" class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-brand-blue mb-10">الأسئلة الشائعة</h2>
             <div class="space-y-4">
-                <details class="bg-gray-50 p-4 rounded-lg cursor-pointer group">
-                    <summary class="font-bold text-brand-blue">هل أحتاج إلى جواز سفر للتقديم؟</summary>
-                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">لا، حالياً جواز السفر غير مطلوب للتقديم في القرعة. يمكنك التقديم باستخدام بياناتك الشخصية الصحيحة، ويُطلب الجواز فقط في حال فوزك للبدء في إجراءات المقابلة.</p>
+                <details class="bg-white p-5 rounded-lg shadow-sm border border-gray-100 group">
+                    <summary class="flex justify-between items-center font-bold text-brand-blue cursor-pointer text-lg">
+                        هل أحتاج إلى جواز سفر للتقديم؟
+                        <i class="fas fa-chevron-down text-gray-400 faq-icon"></i>
+                    </summary>
+                    <p class="text-gray-600 text-sm mt-4 leading-relaxed border-t pt-4">لا، لم يعد جواز السفر مطلوباً لمرحلة التسجيل المبدئي في القرعة. يمكنك التقديم بالبيانات الشخصية الصحيحة فقط.</p>
                 </details>
-                <details class="bg-gray-50 p-4 rounded-lg cursor-pointer group">
-                    <summary class="font-bold text-brand-blue">هل صورتي الحالية تصلح؟</summary>
-                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">يجب أن تكون الصورة حديثة (خلال آخر 6 أشهر). التقط صورة بهاتفك وأنت تنظر للكاميرا مباشرة، بدون نظارات، وبدون فلاتر تجميل، وسنقوم نحن بتعديل المقاسات والخلفية لضمان القبول.</p>
+
+                <details class="bg-white p-5 rounded-lg shadow-sm border border-gray-100 group">
+                    <summary class="flex justify-between items-center font-bold text-brand-blue cursor-pointer text-lg">
+                        هل صورتي بالهاتف تصلح؟ أم أحتاج لاستوديو؟
+                        <i class="fas fa-chevron-down text-gray-400 faq-icon"></i>
+                    </summary>
+                    <p class="text-gray-600 text-sm mt-4 leading-relaxed border-t pt-4">صورة الهاتف تفي بالغرض تماماً! فقط قف أمام حائط سادة، انظر للكاميرا مباشرة بملامح طبيعية وبدون نظارات أو فلاتر. أرسلها لنا ونحن سنقوم بضبط الأبعاد والإضاءة والخلفية لتتوافق مع معايير القبول.</p>
                 </details>
-                <details class="bg-gray-50 p-4 rounded-lg cursor-pointer group">
-                    <summary class="font-bold text-brand-blue">أنا متزوج، هل يمكننا تقديم طلبين؟</summary>
-                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">نعم بالتأكيد! نقوم بتقديم طلب لك كعائل رئيسي ونضيف زوجتك، وطلب آخر لزوجتك كعائل رئيسي ونضيفك. هذا يضاعف فرصتكم بالفوز.</p>
-                </details>
-                <details class="bg-gray-50 p-4 rounded-lg cursor-pointer group">
-                    <summary class="font-bold text-brand-blue">كم هي تكلفة الخدمة؟</summary>
-                    <p class="text-gray-600 text-sm mt-3 leading-relaxed">الموقع الرسمي مجاني، لكن أجورنا هي مقابل وقتنا، خبرتنا في التعديل التقني للصور، تعبئة البيانات بدقة، وضمان عدم استبعادك. الأسعار رمزية جداً وتختلف حسب إذا كان الطلب فردي أم عائلي. تواصل معنا لمعرفة السعر.</p>
+
+                <details class="bg-white p-5 rounded-lg shadow-sm border border-gray-100 group">
+                    <summary class="flex justify-between items-center font-bold text-brand-blue cursor-pointer text-lg">
+                        كيف أعرف أنني فزت؟
+                        <i class="fas fa-chevron-down text-gray-400 faq-icon"></i>
+                    </summary>
+                    <p class="text-gray-600 text-sm mt-4 leading-relaxed border-t pt-4">نسلمك ملف PDF يحتوي على رقم التأكيد (Confirmation Number). في شهر مايو من العام القادم، تدخل هذا الرقم في الموقع الرسمي لتعرف النتيجة. لا توجد جهة تتصل بك لتخبرك بالفوز، أنت تفحص بنفسك.</p>
                 </details>
             </div>
         </div>
     </section>
 
-    <!-- دعوة للتواصل (CTA & Contact) -->
-    <section id="contact" class="py-16 bg-brand-blue text-white text-center">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-6">جاهز للتقديم؟ لا تتردد!</h2>
-            <p class="mb-10 text-gray-300">التقديم مفتوح لفترة محدودة، تجنب الضغط في الأيام الأخيرة وتواصل معي الآن للبدء.</p>
+    <!-- دعوة للتواصل (CTA) -->
+    <section id="contact" class="py-20 gradient-bg text-white text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <h2 class="text-3xl md:text-5xl font-black mb-6">الوقت يمر.. احجز طلبك الآن!</h2>
+            <p class="mb-10 text-gray-300 text-lg">تواصل معنا عبر إحدى المنصات التالية للبدء فوراً. نحن نرد بسرعة لتلبية طلبك قبل الضغط الكبير على السيرفرات.</p>
             
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
                 <!-- زر تلجرام -->
-                <a href="https://t.me/freeabdallah" target="_blank" class="w-full sm:w-auto bg-[#0088cc] hover:bg-[#0077b5] text-white font-bold py-4 px-8 rounded-full flex items-center justify-center gap-2 transition duration-300 shadow-lg">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-                    تواصل عبر تليجرام
+                <a href="https://t.me/freeabdallah" target="_blank" class="w-full sm:w-auto bg-[#2AABEE] hover:bg-[#2298D4] text-white font-bold text-lg py-4 px-10 rounded-xl flex items-center justify-center gap-3 transition duration-300 shadow-lg transform hover:scale-105">
+                    <i class="fab fa-telegram-plane text-2xl"></i> تواصل عبر تليجرام
                 </a>
                 
                 <!-- زر واتساب -->
-                <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" class="w-full sm:w-auto bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-8 rounded-full flex items-center justify-center gap-2 transition duration-300 shadow-lg">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 21.411H12c-1.573 0-3.111-.422-4.46-1.22l-.32-.19-3.315.87 1.002-3.21-.21-.334C3.844 15.932 3.376 14.05 3.376 12c0-4.756 3.873-8.628 8.63-8.628 2.308 0 4.478.899 6.108 2.531 1.63 1.631 2.528 3.801 2.528 6.109 0 4.756-3.873 8.628-8.63 8.628h.018l.001-2.23zm0-15.021A6.398 6.398 0 0 0 7.514 8.243a6.398 6.398 0 0 0-1.854 4.516c0 1.257.327 2.48 1.005 3.56l.11.176-.596 1.914 1.983-.52.181.107A6.353 6.353 0 0 0 12 19.167h.005A6.4 6.4 0 0 0 18.397 12a6.397 6.397 0 0 0-1.855-4.518 6.395 6.395 0 0 0-4.511-1.861zM15.54 13.56c-.194-.097-1.152-.57-1.33-.634-.176-.065-.306-.097-.435.097-.13.194-.504.634-.616.764-.112.13-.225.146-.419.049-.194-.097-.822-.303-1.567-.968-.58-.517-.971-1.156-1.083-1.35-.112-.195-.012-.3.084-.397.087-.087.194-.226.291-.34.097-.113.129-.194.194-.323.065-.13.032-.243-.016-.34-.049-.097-.435-1.05-.596-1.439-.158-.379-.318-.328-.435-.334h-.372c-.13 0-.34.049-.518.243-.178.194-.68.665-.68 1.621 0 .956.697 1.88 7.428h.017c.113.146 1.058 1.62 2.563 2.268.358.155.638.247.857.316.36.085.688.073.947.045.289-.031.885-.36 1.011-.707.126-.348.126-.645.088-.708-.038-.063-.135-.095-.329-.193z"/></svg>
-                    تواصل عبر واتساب
+                <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" class="w-full sm:w-auto bg-brand-green hover:bg-[#1DA851] text-white font-bold text-lg py-4 px-10 rounded-xl flex items-center justify-center gap-3 transition duration-300 shadow-lg transform hover:scale-105">
+                    <i class="fab fa-whatsapp text-2xl"></i> تواصل عبر واتساب
                 </a>
             </div>
-            <p class="mt-6 text-sm text-gray-400">* احذر من الجهات التي تطلب مبالغ طائلة، الموقع الرسمي مجاني ورسومنا هي نظير الخدمة الفنية فقط.</p>
+            
+            <p class="mt-8 text-sm text-gray-400 bg-white/5 inline-block px-4 py-2 rounded-lg border border-white/10">
+                <i class="fas fa-shield-alt text-brand-gold mr-1"></i> نحن لا نمثل جهة حكومية أمريكية. هذه الخدمة هي مساعدة فنية وتقنية لتسهيل التقديم بشكل سليم.
+            </p>
         </div>
     </section>
 
     <!-- الفوتر -->
-    <footer class="bg-gray-900 text-gray-400 py-6 text-center border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-4">
-            <p>© 2026 جميع الحقوق محفوظة | خدمة عبد الله  لتسجيل القرعة الأمريكية.</p>
+    <footer class="bg-[#050d1a] text-gray-500 py-8 text-center border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center">
+            <div class="text-2xl font-black mb-4 flex items-center gap-2 text-white opacity-80">
+                <i class="fas fa-star text-brand-gold"></i> DV<span class="text-brand-gold">2027</span>
+            </div>
+            <p>© 2026 جميع الحقوق محفوظة | خدمة عبد الله لتسجيل القرعة الأمريكية.</p>
         </div>
     </footer>
 
